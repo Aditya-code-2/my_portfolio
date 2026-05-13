@@ -35,17 +35,18 @@ const Projects = () => {
         </motion.div>
 
         {/* PROJECT CARDS */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
           {/* CARD 1 */}
           <motion.div
             initial={{ opacity: 0, y: 60 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
-            className="group bg-white/5 border border-white/10 rounded-[30px] overflow-hidden backdrop-blur-xl hover:scale-[1.03] duration-500 shadow-xl"
+            className="group bg-white/5 border border-white/10 rounded-[30px] overflow-hidden backdrop-blur-xl hover:-translate-y-2 hover:scale-[1.02] duration-500 shadow-xl"
           >
 
-            <div className="h-[220px] sm:h-[250px] overflow-hidden">
+            {/* IMAGE */}
+            <div className="h-[240px] sm:h-[250px] overflow-hidden">
 
               <img
                 src={project}
@@ -55,6 +56,7 @@ const Projects = () => {
 
             </div>
 
+            {/* CONTENT */}
             <div className="p-6">
 
               <h1 className="text-2xl font-bold">
@@ -66,6 +68,29 @@ const Projects = () => {
                 and modern luxury UI design.
               </p>
 
+              {/* BUTTONS */}
+              <div className="flex flex-wrap gap-4 mt-8">
+
+                <a
+                  href="https://my-portfolio-beta-ecru-43.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-5 py-3 rounded-full bg-white text-black text-sm font-semibold hover:scale-105 hover:bg-gray-200 duration-300 shadow-lg"
+                >
+                  Live Preview
+                </a>
+
+                <a
+                  href="https://github.com/Aditya-code-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-5 py-3 rounded-full border border-white/20 text-sm hover:bg-white/10 duration-300"
+                >
+                  Source Code
+                </a>
+
+              </div>
+
             </div>
 
           </motion.div>
@@ -75,10 +100,11 @@ const Projects = () => {
             initial={{ opacity: 0, y: 60 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9 }}
-            className="group bg-white/5 border border-white/10 rounded-[30px] overflow-hidden backdrop-blur-xl hover:scale-[1.03] duration-500 shadow-xl"
+            className="group bg-white/5 border border-white/10 rounded-[30px] overflow-hidden backdrop-blur-xl hover:-translate-y-2 hover:scale-[1.02] duration-500 shadow-xl"
           >
 
-            <div className="h-[220px] sm:h-[250px] overflow-hidden">
+            {/* IMAGE */}
+            <div className="h-[240px] sm:h-[250px] overflow-hidden">
 
               <img
                 src={project2}
@@ -88,6 +114,7 @@ const Projects = () => {
 
             </div>
 
+            {/* CONTENT */}
             <div className="p-6">
 
               <h1 className="text-2xl font-bold leading-snug">
@@ -102,6 +129,29 @@ const Projects = () => {
                 </span>
               </p>
 
+              {/* BUTTONS */}
+              <div className="flex flex-wrap gap-4 mt-8">
+
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-5 py-3 rounded-full bg-white text-black text-sm font-semibold hover:scale-105 hover:bg-gray-200 duration-300 shadow-lg"
+                >
+                  Live Preview
+                </a>
+
+                <a
+                  href="https://github.com/Aditya-code-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-5 py-3 rounded-full border border-white/20 text-sm hover:bg-white/10 duration-300"
+                >
+                  Source Code
+                </a>
+
+              </div>
+
             </div>
 
           </motion.div>
@@ -111,10 +161,11 @@ const Projects = () => {
             initial={{ opacity: 0, y: 60 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.1 }}
-            className="group bg-white/5 border border-white/10 rounded-[30px] overflow-hidden backdrop-blur-xl hover:scale-[1.03] duration-500 shadow-xl"
+            className="group bg-white/5 border border-white/10 rounded-[30px] overflow-hidden backdrop-blur-xl hover:-translate-y-2 hover:scale-[1.02] duration-500 shadow-xl"
           >
 
-            <div className="h-[220px] sm:h-[250px] overflow-hidden">
+            {/* IMAGE */}
+            <div className="h-[240px] sm:h-[250px] overflow-hidden">
 
               <img
                 src={project3}
@@ -124,6 +175,7 @@ const Projects = () => {
 
             </div>
 
+            {/* CONTENT */}
             <div className="p-6">
 
               <h1 className="text-2xl font-bold">
@@ -134,6 +186,29 @@ const Projects = () => {
                 Mini GPS tracker for real-time location updates,
                 monitoring and smart tracking solutions.
               </p>
+
+              {/* BUTTONS */}
+              <div className="flex flex-wrap gap-4 mt-8">
+
+                <a
+                  href="https://gps-tracker-frontend-3zvy.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-5 py-3 rounded-full bg-white text-black text-sm font-semibold hover:scale-105 hover:bg-gray-200 duration-300 shadow-lg"
+                >
+                  Live Preview
+                </a>
+
+                <a
+                  href="https://github.com/Aditya-code-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-5 py-3 rounded-full border border-white/20 text-sm hover:bg-white/10 duration-300"
+                >
+                  Source Code
+                </a>
+
+              </div>
 
             </div>
 
